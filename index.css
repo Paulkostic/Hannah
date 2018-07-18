@@ -1,0 +1,104 @@
+/* h1 */
+
+h1 {
+    color: teal;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 60px;
+}
+
+h1.main {
+    color: black;
+    width: auto;
+    text-align: left;
+    font-family: sans-serif;
+    padding: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px
+    
+    width: auto
+}
+
+                             /* I don't know why this background image won't work when I try to source the image localy */
+
+h1.welcome {
+    background-image: url(https://www.telegraph.co.uk/content/dam/Travel/2017/February/europe-beaches-Playa%20de%20Muro%20Beach-AP.jpg);
+    padding: 180px;
+    margin: 0px;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* h2 */
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 30px;
+}
+
+/* p */
+
+p {
+    color: darkslategray;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p.white {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+p.opening {
+    color: darkslategray;
+    text-align: center;
+    font-family: sans-serif;
+    font-style: bold; 
+}
+
+p.left {
+        color: darkslategray;
+        text-align: left;
+        font-family: sans-serif;
+}
+
+
+
+/* containers */
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+.image-box {
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.subscribe {
+    background-color: teal;
+    float: center;
+    width: 100%;
+    padding: 0px;
+}
+
+form {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
